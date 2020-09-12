@@ -6,6 +6,8 @@ Students should not change this file.
 """
 
 __author__ = 'madarp and Q3 friends'
+"""Anie Cross with help from instructor demo recordings, Google search,
+docs.python.org"""
 
 
 def add(x, y):

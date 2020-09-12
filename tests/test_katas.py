@@ -1,22 +1,23 @@
 import unittest
 import katas
+import math
 
 
 class TestKatas(unittest.TestCase):
     def test_add(self):
-        self.fail("TODO: Write add unit test")
+        self.assertEqual(katas.add(5, 5), 10)
 
     def test_multiply(self):
-        self.fail("TODO: Write multiply unit test")
+        self.assertEqual(katas.multiply(5, 2), 10)
 
     def test_power(self):
-        self.fail("TODO: Write power unit test")
+        self.assertEqual(katas.power(5, 2), math.pow(5, 2))
 
     def test_factorial(self):
-        self.fail("TODO: Write factorial unit test")
+        self.assertEqual(katas.factorial(5), math.factorial(5))
 
     def test_fibonacci(self):
-        self.fail("TODO: Write fibonacci unit test")
+        self.assertEqual(katas.fibonacci(8), 21)
 
 
 if __name__ == '__main__':
